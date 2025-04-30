@@ -1,0 +1,126 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Thu Apr 24 14:40:28 2025
+| Host         : The_Prospector running 64-bit major release  (build 9200)
+| Command      : report_drc -file top_drc_routed.rpt -pb top_drc_routed.pb -rpx top_drc_routed.rpx
+| Design       : top
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max checks: <unlimited>
+             Checks found: 18
++----------+----------+-------------------+--------+
+| Rule     | Severity | Description       | Checks |
++----------+----------+-------------------+--------+
+| PDRC-153 | Warning  | Gated clock check | 18     |
++----------+----------+-------------------+--------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net clockinit/genblk1[0].init/NotQ_reg_LDC_i_1__14_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[0].init/NotQ_reg_LDC_i_1__14/O, cell clockinit/genblk1[0].init/NotQ_reg_LDC_i_1__14. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net clockinit/genblk1[10].init/NotQ_reg_LDC_i_1__4_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[10].init/NotQ_reg_LDC_i_1__4/O, cell clockinit/genblk1[10].init/NotQ_reg_LDC_i_1__4. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#3 Warning
+Gated clock check  
+Net clockinit/genblk1[11].init/NotQ_reg_LDC_i_1__3_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[11].init/NotQ_reg_LDC_i_1__3/O, cell clockinit/genblk1[11].init/NotQ_reg_LDC_i_1__3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#4 Warning
+Gated clock check  
+Net clockinit/genblk1[12].init/NotQ_reg_LDC_i_1__2_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[12].init/NotQ_reg_LDC_i_1__2/O, cell clockinit/genblk1[12].init/NotQ_reg_LDC_i_1__2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#5 Warning
+Gated clock check  
+Net clockinit/genblk1[13].init/NotQ_reg_LDC_i_1__1_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[13].init/NotQ_reg_LDC_i_1__1/O, cell clockinit/genblk1[13].init/NotQ_reg_LDC_i_1__1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#6 Warning
+Gated clock check  
+Net clockinit/genblk1[14].init/NotQ_reg_LDC_i_1__0_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[14].init/NotQ_reg_LDC_i_1__0/O, cell clockinit/genblk1[14].init/NotQ_reg_LDC_i_1__0. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#7 Warning
+Gated clock check  
+Net clockinit/genblk1[15].init/NotQ_reg_LDC_i_1_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[15].init/NotQ_reg_LDC_i_1/O, cell clockinit/genblk1[15].init/NotQ_reg_LDC_i_1. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#8 Warning
+Gated clock check  
+Net clockinit/genblk1[1].init/NotQ_reg_LDC_i_1__13_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[1].init/NotQ_reg_LDC_i_1__13/O, cell clockinit/genblk1[1].init/NotQ_reg_LDC_i_1__13. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#9 Warning
+Gated clock check  
+Net clockinit/genblk1[2].init/NotQ_reg_LDC_i_1__12_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[2].init/NotQ_reg_LDC_i_1__12/O, cell clockinit/genblk1[2].init/NotQ_reg_LDC_i_1__12. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#10 Warning
+Gated clock check  
+Net clockinit/genblk1[3].init/NotQ_reg_LDC_i_1__11_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[3].init/NotQ_reg_LDC_i_1__11/O, cell clockinit/genblk1[3].init/NotQ_reg_LDC_i_1__11. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#11 Warning
+Gated clock check  
+Net clockinit/genblk1[4].init/NotQ_reg_LDC_i_1__10_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[4].init/NotQ_reg_LDC_i_1__10/O, cell clockinit/genblk1[4].init/NotQ_reg_LDC_i_1__10. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#12 Warning
+Gated clock check  
+Net clockinit/genblk1[5].init/NotQ_reg_LDC_i_1__9_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[5].init/NotQ_reg_LDC_i_1__9/O, cell clockinit/genblk1[5].init/NotQ_reg_LDC_i_1__9. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#13 Warning
+Gated clock check  
+Net clockinit/genblk1[6].init/NotQ_reg_LDC_i_1__8_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[6].init/NotQ_reg_LDC_i_1__8/O, cell clockinit/genblk1[6].init/NotQ_reg_LDC_i_1__8. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#14 Warning
+Gated clock check  
+Net clockinit/genblk1[7].init/NotQ_reg_LDC_i_1__7_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[7].init/NotQ_reg_LDC_i_1__7/O, cell clockinit/genblk1[7].init/NotQ_reg_LDC_i_1__7. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#15 Warning
+Gated clock check  
+Net clockinit/genblk1[8].init/NotQ_reg_LDC_i_1__6_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[8].init/NotQ_reg_LDC_i_1__6/O, cell clockinit/genblk1[8].init/NotQ_reg_LDC_i_1__6. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#16 Warning
+Gated clock check  
+Net clockinit/genblk1[9].init/NotQ_reg_LDC_i_1__5_n_0 is a gated clock net sourced by a combinational pin clockinit/genblk1[9].init/NotQ_reg_LDC_i_1__5/O, cell clockinit/genblk1[9].init/NotQ_reg_LDC_i_1__5. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#17 Warning
+Gated clock check  
+Net clockinit/initbase/NotQ_reg_LDC_i_1__15_n_0 is a gated clock net sourced by a combinational pin clockinit/initbase/NotQ_reg_LDC_i_1__15/O, cell clockinit/initbase/NotQ_reg_LDC_i_1__15. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#18 Warning
+Gated clock check  
+Net scaninit/Ldff/E[0] is a gated clock net sourced by a combinational pin scaninit/Ldff/selected_sig_reg[3]_i_2/O, cell scaninit/Ldff/selected_sig_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+
