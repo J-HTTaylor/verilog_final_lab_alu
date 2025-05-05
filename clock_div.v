@@ -27,7 +27,7 @@ module clock_div
         
             DFF init(
                 .Default(1'b0),
-                .D(notHold[i-1]),
+                .D(notHold[i]),
                 .clk(div_clock_hold[i - 1]),
                 .r(reset),
                 .Q(div_clock_hold[i]),
